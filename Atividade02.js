@@ -1,5 +1,4 @@
-let hoje = new Date()
-let data = new Date("2021-10-20 12:30:00")
+let data = Date.now();
 let idade = 19
 let palestrantes = ["Pablo", "Derek"]
 let participantes = ["Jessica", "Davi", "Analu"]
