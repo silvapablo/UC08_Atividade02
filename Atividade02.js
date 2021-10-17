@@ -1,5 +1,4 @@
-let data = Date.now();
-let idade = 19
+let hoje = new Date();
 let palestrantes = ["Pablo", "Derek"]
 let participantes = ["Jessica", "Davi", "Analu"]
 
@@ -17,7 +16,7 @@ if (data < hoje){
 }
 
 if (participantes.length < 100) {
-    let numeroParticipantes = prompt("Deseja Cadastar? ");
+    let cadastrarNovo = prompt("Deseja Cadastar? ");
 } else {
     console.log("Cadastro Não Será Permitido por ter Excedido o Limite");
 }
